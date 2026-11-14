@@ -1,0 +1,24 @@
+# Render Blueprint: "New +" -> "Blueprint" -> pick this repo. Secrets marked sync:false are asked for in the dashboard.
+services:
+  - type: web
+    name: hostel-helpbot
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN            # from @BotFather
+        sync: false
+      - key: WEBHOOK_SECRET       # letters/digits/_/- only: python -c "import secrets;print(secrets.token_hex(24))"
+        sync: false
+      - key: DATABASE_URL         # Neon connection string (free Render Postgres expires after 30 days)
+        sync: false
+      - key: ADMIN_CHAT_ID        # staff group id (negative number) - see docs/DEPLOYMENT.md
+        sync: false
+      - key: ADMIN_USER_IDS       # comma-separated Telegram user ids of staff
+        sync: false
+      - key: TEAM_USER_IDS        # your team's ids, excluded from "genuine user" statistics
+        sync: false
+      - key: ADMIN_API_TOKEN
+        generateValue: true
+      # PUBLIC_URL is picked up automatically from Render's RENDER_EXTERNAL_URL
