@@ -11,11 +11,11 @@
     "Saturday": "Breakfast: Puri bhaji | Lunch: Rice, sambar, mix veg, roti | Dinner: Roti, dal makhani, sweet",
     "Sunday": "Breakfast: Dosa, chutney | Lunch: Special thali | Dinner: Roti, paneer butter masala, ice cream"
   },
-  "laundry": "Laundry pickup Mon/Thu 8-10 AM at the ground-floor laundry room. Washing machines on each floor are free 6-9 AM and 3-6 PM.",
+  "laundry": "Laundry pickup Mon/Sat 9AM to 6 PM at the ground-floor laundry room. Washing machines on each floor are free 6-9 AM and 3-6 PM.",
   "wifi": "Connect to the SSID 'HOSTEL-WIFI' and log in with your student ID. If the router on your floor is off or slow, file a complaint with category 'Internet'.",
-  "warden_contact": "Warden office: +91-00000-00000 (9 AM - 6 PM). Night security desk: +91-00000-11111. Caretaker: +91-00000-22222.",
-  "rules": "Gate closes at 10:00 PM (late entry needs prior warden approval). Visitors allowed 10 AM - 6 PM in the visitors' lounge only. Cooking appliances and heaters are not allowed in rooms. Night-out needs a signed outing slip.",
+  "warden_contact": "Warden office: (9 AM - 6 PM)",
+  "rules": "Visitors allowed 10 AM - 6 PM in the visitors' lounge only. Cooking appliances and heaters are not allowed in rooms. Night-out needs a signed outing slip.",
   "fees": "Check the exact amount and due date on the college fee portal or with the accounts office. The hostel office can issue a fee receipt on request.",
-  "emergency_numbers": "Emergency: call 112. Ambulance: 108. Fire: 101. Hostel night security: +91-00000-11111.",
-  "wellbeing_support": "Tele-MANAS (free, 24x7 mental-health helpline): 14416. Emergency: 112. Campus counselling centre: [ADD CONTACT HERE]."
+  "emergency_numbers": "Emergency: call 112. Ambulance: 108. Fire: 101.",
+  "wellbeing_support": "Emergency: 112."
 }
