@@ -1,0 +1,23 @@
+# Render Blueprint: "New +" -> "Blueprint" -> pick this repo. Secrets marked sync:false are asked for in the dashboard.
+services:
+  - type: web
+    name: hostel-helpbot
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: WEBHOOK_SECRET
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_CHAT_ID
+        sync: false
+      - key: ADMIN_USER_IDS
+        sync: false
+      - key: TEAM_USER_IDS
+        sync: false
+      - key: ADMIN_API_TOKEN
+        generateValue: true

@@ -1,0 +1,27 @@
+[
+  {
+    "intent": "wifi",
+    "question": "Wi-Fi or internet is not working",
+    "answer": "This bot cannot check live network status. Register a Wi-Fi complaint and include your block and room so the helpdesk can investigate."
+  },
+  {
+    "intent": "plumbing",
+    "question": "Water, tap or washroom issue",
+    "answer": "For a water or plumbing issue, register a complaint and include the exact block, room or washroom location. For an urgent building-safety issue, contact hostel staff directly."
+  },
+  {
+    "intent": "electrical",
+    "question": "Fan, light or electrical issue",
+    "answer": "Register an electrical complaint with the exact location. Do not attempt electrical repairs yourself; contact hostel staff for assistance."
+  },
+  {
+    "intent": "cleaning",
+    "question": "Cleaning or garbage issue",
+    "answer": "Register a cleaning complaint and mention the block, floor and affected area."
+  },
+  {
+    "intent": "furniture",
+    "question": "Furniture or fixture issue",
+    "answer": "Register a maintenance complaint and describe which item is damaged and where it is located."
+  }
+]
